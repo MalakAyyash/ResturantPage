@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.overly{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    
+}
+.header{
+ background-image: url("../images/headerimage.jpg");
+ height: 100vh;
+ background-size: cover;
+ text-align: center;
+}
+
+.navbar .logo{
+    width: 40%;
+    float: left;
+}
+.navbar .nav{
+    width: 60%;
+    float: left;
+    padding-top: 20px;
+}
+.navbar .logo img{
+    width: 25%;
+}
+.navbar .nav .list-item{
+    display: inline-block;
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 30px;
+}
+.navbar .nav .list-item a{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* ***header content*** */
+.headerContent{
+    margin-top: 90px;
+}
+.headerContent img{
+    width: 25%;
+}
+h1{
+    color: white;
+    font-size: 76px;
+    font-weight: 400;
+}
+.headerContent p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+
+}
+.headerContent button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+}
+.btn-learn-more{
+    background-color: #c1ab84;
+    color: white;
+    margin-right: 20px;
+}
+.btn-learn-more:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+/* end header content  */
+
+/* start about section  */
+.about  {
+    overflow: hidden;
+}
+.about-img {
+    width: 40%;
+    float: left;
+}
+.about-content  {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.about-img img {
+    width: 100%;
+}
+.about-content h2  {
+    font-size: 36px;
+    font-weight: 400;
+    color: #253048;
+    margin-bottom: 20px;
+}
+.about-content h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: #c1ab84;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+.about-content p {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+.about-content ul li {
+    width: 75%;
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+}
+.about-content ul li i  {
+    border-radius: 50%;
+    background-color:  rgb(193, 171, 132);
+    color: #fff ;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 17px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.about-content ul li span {
+    margin-left: 25px;
+}
+/* end about section  */
+
+/* start review section  */
+
+.reviews , .contact {
+    background-color: #f8f8f8;
+    padding-top: 70px;
+    overflow: hidden;
+}
+.description , .contact-content{
+    width: 60%;
+    float: left;
+    text-align: left;
+
+
+}
+
+.description h2 , .contact-content h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+    margin-bottom: 20px;
+
+}
+.description h3{
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(193, 171, 132);
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+
+
+}
+.description p , .contact-content p {
+    width: 75%;
+    line-height: 30px;
+    font-size: 19px;
+    margin-bottom: 17px;
+
+
+}
+.description ul li , .contact-content ul li{
+    width: 75%;
+    font-size: 17px;
+
+}
+
+.description ul li span , .contact-content ul li span{
+    margin-left: 25px;
+}
+.description ul li i{
+    color: rgb(193, 171, 132) ;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.image , .contact-img{
+    width: 40%;
+    float: left;
+}
+
+.image img , .contact-img img{
+    width: 100%;
+}
+/* end review section  */
+
+/* start cover section  */
+.cover{
+    background-image: url(../images/shutterstock_280369721.jpg);
+    background-size: cover;  
+    padding: 250px;  
+    background-attachment: fixed;
+}
+
+/* end cover section  */
+
+ /* start menu section */
+.menu{
+    text-align: center;
+    padding: 40px;
+    overflow: hidden;
+
+}
+.menu h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.menu h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(193, 171, 132);
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 30px;
+}
+.item{
+    float: left;
+    width: 33.3%;
+}
+.item img{
+    width: 80%;
+}
+.item p {
+    line-height: 25px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.item h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-content a{
+    color: white;
+    background-color: rgb(193, 171, 132);
+    padding :10px 20px;
+    border-radius: 10px ;
+    border: 0;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+/* end review section  */
+/* start contact section  */
+.contact-content ul li i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgb(193, 171, 132);
+    color: #fff ;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.contact{
+    padding-bottom: 50px;
+}
+/* end contact section  */
+
+/* start footer section  */
+.footer{
+    overflow: hidden;
+    padding-top: 30px;
+    background-color: #403d38;
+    color: #fff;
+}
+.footer-items{
+    float: left;
+    width: 25%;
+}
+.footer-items p{
+    width: 84%;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer-items p , .footer-items ul li {
+    color: #969696;
+    font-size: 14px;
+}
+.footer-items h2{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+
+.footer-items ul li  {
+    margin-bottom: 20px;
+}
+.footer-items ul li span {
+    margin-left: 10px;
+}
+.footer-items ul li a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.footer-items ul li a:before{
+    content: '\f105';
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.footer-second{
+    background-color:#353330;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #fff;
+} 
+
+.footer-second p{
+    font-weight: 400;
+    font-size: 14px ;
+    color: #969696;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.footer-second .icons i{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #484540;
+    color: #969696;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.footer-second .icons i:hover{
+    cursor: pointer;
+    background-color: #3b5998 ;
+    color: #fff;
+}
+/* end footer section  */
+@media (max-width:567px) {
+    .navbar .nav .list-item a{
+        font-size: 11px;
+        margin-right: 5px;
+    }
+    .navbar .logo{
+        width: 20%;
+    }
+    .navbar .nav{
+        width: 80%;
+        padding-top: 10px;
+        
+    }
+    .navbar .logo img{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .headerContent p{
+        font-size: 20px;
+    
+    
+    }
+    .headerContent button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .headerContent img{
+        width: 60%;
+    }
+    .about-img {
+        float: none;
+        width: 100%;
+    }
+    .about-content  {
+        float: none;
+        width: 100%;
+    
+    }
+    .about-content p {
+        width: 90%;
+        font-size: 15px;
+
+        
+    
+    }
+    .about-content h2  {
+        font-size: 30px;
+        
+    }
+    .about-content h3{
+        font-size: 20px;
+       
+    }
+    .about-content ul li {
+
+        font-size: 15px;
+    }
+    .about-content ul li i  {
+        
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: 10px;
+    
+    }
+    .about-content ul li span {
+        margin-left: 10px;
+    }
+    .about-content ul li {
+        width: 90%;
+        text-align: left;
+        margin: auto;
+        font-size: 15px;
+    }
+    .hidden{
+        display: none
+    }
+    .description , .contact-content{
+        width: 100%;
+        float: none;
+    
+    
+    }
+    .description p , .contact-content p {
+        width: 100%;
+        font-size: 19px;
+    
+    
+    }
+    .description ul li , .contact-content ul li{
+        width: 100%;
+        
+    
+    }
+    .description ul li span , .contact-content ul li span{
+        margin-left: 15px;
+    }
+    .menu h2{
+        font-size: 30px;
+    }
+    .menu h3{
+        font-size: 20px;
+        
+    }
+    .item{
+        float: left;
+        width: 50%;
+    }
+    .item img{
+        width: 90%;
+    }
+    .item p {
+        width: 90%;
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 10px;
+    }
+    .item h4{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .contact-img{
+    width: 100%;
+    float: none;
+    margin: auto;
+    padding-top: 10px;
+    }
+    .contact-img iframe{
+        width: 100%;
+    }
+    .footer-items p , .footer-items ul li {
+        font-size: 7px;
+        margin-right: 7px;
+    }
+    .footer-items ul li  {
+        margin-bottom: 10px;
+    }
+    .footer-items ul li a:before{
+        margin-right: 5px;
+        font-size: 5px;
+    }
+    .footer-second p{
+        font-size: 14px ;
+        width: 40%;
+        
+    
+    }
+    .footer-items h2{
+        font-size: 8px;
+        
+    
+    }
+    .footer-items ul li span {
+        margin-left: 5px;
+    }
+    .footer-items p{
+        margin-bottom: 10px;
+    }
+
+}
